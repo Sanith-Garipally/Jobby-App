@@ -1,0 +1,95 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #272727;
+  height: 55px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    height: 65px;
+  }
+}
+.nav-items-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+}
+.logo {
+  width: 40%;
+  max-width: 160px;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 50%;
+    max-width: 190px;
+  }
+}
+
+.sm-list-container {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  max-width: 130px;
+}
+@media screen and (min-width: 768px) {
+  .sm-list-container {
+    display: none;
+  }
+}
+.sm-nav-icon {
+  font-size: 18px;
+  color: #fff;
+}
+.sm-nav-btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+.lg-list-container {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .lg-list-container {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+  }
+}
+.lg-nav-items-container {
+  display: flex;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.nav-home-jobs {
+  font-size: 14px;
+  font-weight: 500;
+  color: #f8fafc;
+  margin-right: 15px;
+}
+.lg-nav-btn {
+  border: none;
+  outline: none;
+  background-color: #6366f1;
+  color: #f8fafc;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 7px;
+  font-size: 12px;
+  font-weight: bold;
+  width: 100px;
+}

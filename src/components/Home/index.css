@@ -1,0 +1,60 @@
+.home-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right 0 bottom 0;
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .home-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 50px;
+  }
+  .hm-content-container {
+    width: 60%;
+  }
+}
+
+.hm-head {
+  color: #fff;
+  font-size: 25px;
+}
+@media screen and (min-width: 768px) {
+  .hm-head {
+    font-size: 55px;
+  }
+}
+
+.hm-para {
+  font-size: 14px;
+  line-height: 25px;
+  color: #cbd5e1;
+}
+@media screen and (min-width: 768px) {
+  .hm-para {
+    font-size: 20px;
+  }
+}
+
+.hm-btn {
+  border: none;
+  outline: none;
+  background-color: #6366f1;
+  color: #f8fafc;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 7px;
+  font-size: 12px;
+  font-weight: 900;
+  width: 80px;
+}
+@media screen and (min-width: 768px) {
+  .hm-btn {
+    width: 120px;
+    height: 40px;
+  }
+}
